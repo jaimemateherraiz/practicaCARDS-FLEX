@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2023/01/12/10/44/avocado-7713817_1280.jpg");}
+
+/* Centrar el contenedor */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    max-width: 25%;
+    height: 700px;
+    padding: 25px;
+  
+    border: 3px solid rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    background-color: rgba(230, 176, 61, 0.45);
+  
+    backdrop-filter: blur(15px);
+    
+  }
+  
+    .card-footer {
+    font-size: 12px;
+    text-align: end;
+  }
+
+    .card:hover {
+    opacity: 0.9;
+    transition: opacity 0.2s ease-in-out;
+}
+
+    .card-title-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .card-title {
+        margin: 0;
+        margin-left: 20px;
+    }
+
+    .card-image {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+        border: solid 1px black;
+    }
+
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    
+}
